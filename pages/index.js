@@ -17,22 +17,22 @@ function shuffle(arr) {
   return copyarr;
 }
 
-const Home = ({ shuffled }) => {
+const Home = () => {
   // var a = [1, 2, 3, 4, 5, 6, 7, 8];
   // var b = shuffle(a);
   // console.log(b);
   // [2, 7, 8, 6, 5, 3, 1, 4]
 
-  const [listo, setListo] = useState(shuffled);
+  const [listo, setListo] = useState([]);
 
   const [names, setNames] = useState([]);
   const [count, setCount] = useState(0);
 
-  // useEffect(() => {
-  //   const s = shuffle(pics);
-  //   setListo(s);
-  //   console.log('listo is ', s);
-  // }, []);
+  useEffect(() => {
+    const s = shuffle(pics);
+    setListo(s);
+    console.log('listo is ', s);
+  }, []);
 
   const win = listo.filter(x => {
     return x.isFlipped == false;
@@ -67,7 +67,7 @@ const Home = ({ shuffled }) => {
       </Head>
 
       <Nav />
-      {win.length === 0 ? alert('You Won! you had ' + count + ' clicks') : ''}
+      {/* {win.length === 0 ? alert('You Won! you had ' + count + ' clicks') : ''} */}
       <ul>
         {listo.map((fig, index) => {
           return (
@@ -183,8 +183,8 @@ const Home = ({ shuffled }) => {
 
 export default Home;
 
-Home.getInitialProps = () => {
-  const shuffled = shuffle(pics);
-  console.log('getInitialProps', shuffled);
-  return { shuffled };
-};
+// Home.getInitialProps = () => {
+//   const shuffled = shuffle(pics);
+//   console.log('getInitialProps', shuffled);
+//   return { shuffled };
+// };
