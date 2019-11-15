@@ -1,0 +1,17 @@
+{
+  "name": "femory",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "9.1.2",
+    "react": "16.11.0",
+    "react-card-flip": "^0.8.1",
+    "react-dom": "16.11.0",
+    "styled-components": "^4.4.1"
+  }
+}
