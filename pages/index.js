@@ -120,7 +120,7 @@ const Home = () => {
         }
         .container {
           margin: 0 auto;
-          perspective: 600px;
+
           width: 132px;
           height: 192px;
           padding-left: 10px;
@@ -152,6 +152,9 @@ const Home = () => {
           width: 120px;
           height: 180px;
           z-index: 1;
+          transition: transform 1s;
+          transform-style: preserve-3d;
+          backface-visibility: hidden;
         }
 
         button {
@@ -160,7 +163,7 @@ const Home = () => {
           height: 180px;
           color: #5c852c;
           background: #5c852c;
-          z-index: 1;
+
           cursor: pointer;
         }
 
@@ -171,18 +174,29 @@ const Home = () => {
           background: red;
           transform: rotateY(180deg);
           pointer-events: none;
+          transition: transform 1s;
+          transform-style: preserve-3d;
+          backface-visibility: hidden;
         }
 
         .card {
           width: 120px;
           height: 180px;
           position: relative;
-          transition: transform 1s;
+          perspective: 600px;
+           {
+            /* transition: transform 1s;
           transform-style: preserve-3d;
+          backface-visibility: hidden; */
+          }
         }
 
-        .is-flipped {
+        .is-flipped .front {
           transform: rotateY(180deg);
+        }
+
+        .is-flipped .back {
+          transform: rotateY(360deg);
         }
       `}</style>
     </div>
