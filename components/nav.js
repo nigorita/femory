@@ -36,7 +36,7 @@ const Nav = () => (
       nav {
         text-align: center;
         background-color: #3f8a53;
-        height: 130px;
+        height: 110px;
       }
       ul {
         display: flex;

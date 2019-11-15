@@ -23,7 +23,7 @@ const Home = () => {
   // console.log(b);
   // [2, 7, 8, 6, 5, 3, 1, 4]
 
-  const [listo, setListo] = useState([]);
+  const [listo, setListo] = useState(pics);
 
   const [names, setNames] = useState([]);
   const [count, setCount] = useState(0);
@@ -34,9 +34,9 @@ const Home = () => {
     console.log('listo is ', s);
   }, []);
 
-  const win = listo.filter(x => {
-    return x.isFlipped == false;
-  });
+  // const win = listo.filter(x => {
+  //   return x.isFlipped == false;
+  // });
 
   useEffect(() => {
     if (names.length === 2) {
@@ -53,6 +53,14 @@ const Home = () => {
             }
           });
         }, 1000);
+      } else {
+        const win =
+          listo.filter(x => {
+            return x.isFlipped === false;
+          }).length === 0;
+        if (win) {
+          alert('you won with ' + count + ' clicks');
+        }
       }
 
       setNames([]);
@@ -67,7 +75,7 @@ const Home = () => {
       </Head>
 
       <Nav />
-      {/* {win.length === 0 ? alert('You Won! you had ' + count + ' clicks') : ''} */}
+
       <ul>
         {listo.map((fig, index) => {
           return (
@@ -96,7 +104,7 @@ const Home = () => {
                 <div className="cardface back">
                   <img src={fig.image} alt="" />
                   <div className="wiki">
-                    {win.length === 0 ? 'www.wiki.com' : ''}
+                    {/* {win.length === 0 ? 'www.wiki.com' : ''} */}
                   </div>
                 </div>
               </div>
