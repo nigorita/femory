@@ -1,7 +1,7 @@
-import React, { useState, useEffect } from "react";
-import Head from "next/head";
-import Nav from "../components/nav";
-import pics from "../data";
+import React, { useState, useEffect } from 'react';
+import Head from 'next/head';
+import Nav from '../components/nav';
+import pics from '../data';
 
 const Home = () => {
   const [listo, setListo] = useState(pics);
@@ -10,7 +10,7 @@ const Home = () => {
   useEffect(() => {
     if (names.length === 2) {
       if (names[0].name !== names[1].name) {
-        console.log("they do not match");
+        console.log('they do not match');
         setTimeout(function() {
           listo.map((x, index) => {
             if (x.name === names[0].name || x.name === names[1].name) {
@@ -35,12 +35,11 @@ const Home = () => {
 
       <Nav />
 
-      {JSON.stringify(names)}
       <ul>
         {listo.map((fig, index) => {
           return (
             <div className="container">
-              <div className={!fig.isFlipped ? "card" : "card is-flipped"}>
+              <div className={!fig.isFlipped ? 'card' : 'card is-flipped'}>
                 <div className="cardface front">
                   <li>
                     <button
@@ -58,7 +57,7 @@ const Home = () => {
                         }
                       }}
                     >
-                      {" "}
+                      {' '}
                     </button>
                   </li>
                 </div>

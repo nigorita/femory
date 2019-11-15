@@ -23,7 +23,10 @@ const Nav = () => (
         </li>
       ))}
     </ul>
-
+    <h2 color="white">
+      کاری از عندلیب عندلیبان <br />
+      تقدیم به توییتر فارسی
+    </h2>
     <style jsx>{`
       :global(body) {
         margin: 0;
@@ -50,6 +53,10 @@ const Nav = () => (
         color: white;
         text-decoration: none;
         font-size: 13px;
+      }
+      h2 {
+        color: white;
+        font-family: tahoma;
       }
     `}</style>
   </nav>
