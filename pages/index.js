@@ -58,9 +58,11 @@ const Home = () => {
           listo.filter(x => {
             return x.isFlipped === false;
           }).length === 0;
-        if (win) {
-          alert('you won with ' + count + ' clicks');
-        }
+        setTimeout(function() {
+          if (win) {
+            alert('you won with ' + count + ' clicks');
+          }
+        }, 500);
       }
 
       setNames([]);
@@ -75,7 +77,7 @@ const Home = () => {
       </Head>
 
       <Nav />
-
+      <button hidden="false">Play again</button>
       <ul>
         {listo.map((fig, index) => {
           return (
