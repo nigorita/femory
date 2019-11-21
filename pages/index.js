@@ -82,7 +82,11 @@ const Home = () => {
 
       <Nav />
 
-      <a href="javascript:location.reload(true)">Play Again/Refresh the game</a>
+      <a className="azsar" href="javascript:location.reload(true)">
+        Play Again
+        <br />
+        Refresh the game
+      </a>
 
       <ul>
         {listo.map((fig, index) => {
@@ -132,6 +136,12 @@ const Home = () => {
       </ul>
 
       <style jsx>{`
+        .azsar {
+          position: absolute;
+          padding: 10px;
+          margin-top: 20px;
+          margin-left: 60px;
+        }
         a {
           text-align: center;
           font-family: tahoma;
