@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import Head from 'next/head';
 import Nav from '../components/nav';
 import pics from '../data';
+import Router from 'next/router';
 
 function shuffle(arr) {
   let j;
@@ -27,6 +28,7 @@ const Home = () => {
 
   const [names, setNames] = useState([]);
   const [count, setCount] = useState(0);
+  const [win, setWin] = useState(false);
 
   useEffect(() => {
     const s = shuffle(pics);
@@ -54,13 +56,15 @@ const Home = () => {
           });
         }, 1000);
       } else {
-        const win =
+        const hasWon =
           listo.filter(x => {
             return x.isFlipped === false;
           }).length === 0;
+        setWin(hasWon);
         setTimeout(function() {
-          if (win) {
+          if (hasWon) {
             alert('you won with ' + count + ' clicks');
+            // window.location.reload();
           }
         }, 500);
       }
@@ -77,7 +81,9 @@ const Home = () => {
       </Head>
 
       <Nav />
-      <button hidden="false">Play again</button>
+
+      <a href="javascript:location.reload(true)">Play Again/Refresh the game</a>
+
       <ul>
         {listo.map((fig, index) => {
           return (
@@ -91,6 +97,7 @@ const Home = () => {
                           setCount(count + 1);
                           const a = fig.name;
                           const b = fig.id;
+                          const c = fig.wiki;
                           setNames([...names, { name: a, id: b }]);
 
                           //setNames([...names, { name: fig.name, id: index }]);
@@ -105,9 +112,18 @@ const Home = () => {
                 </div>
                 <div className="cardface back">
                   <img src={fig.image} alt="" />
-                  <div className="wiki">
-                    {/* {win.length === 0 ? 'www.wiki.com' : ''} */}
-                  </div>
+
+                  <a
+                    className="wikis"
+                    hidden={!win}
+                    target="_blank"
+                    href={fig.wiki}
+                  >
+                    <br />
+                    read about <br />
+                    {fig.name} <br />
+                    in WikiPedia
+                  </a>
                 </div>
               </div>
             </div>
@@ -116,9 +132,25 @@ const Home = () => {
       </ul>
 
       <style jsx>{`
-        .wiki {
-          z-index: 2;
-          background: red;
+        a {
+          text-align: center;
+          font-family: tahoma;
+          border: 2px blue;
+          background: white;
+          border: solid;
+          cursor: pointer;
+          position: relative;
+        }
+        .again {
+          background-color: #42f587;
+        }
+        .wikis {
+          position: absolute;
+          pointer-events: all;
+          width: 120px;
+          height: 180px;
+          object-fit: cover;
+          background: rgba(255, 255, 255, 0.5);
         }
         .container {
           margin: 0 auto;
@@ -133,6 +165,7 @@ const Home = () => {
           width: 120px;
           height: 180px;
           object-fit: cover;
+          border-radius: 10%;
         }
         ul {
           position: absolute;
@@ -147,6 +180,7 @@ const Home = () => {
         li {
           width: 120px;
           background: #5c852c;
+          border-radius: 10%;
         }
 
         .front {
@@ -157,6 +191,7 @@ const Home = () => {
           transition: transform 1s;
           transform-style: preserve-3d;
           backface-visibility: hidden;
+          border-radius: 10%;
         }
 
         button {
@@ -165,7 +200,7 @@ const Home = () => {
           height: 180px;
           color: #5c852c;
           background: #5c852c;
-
+          border-radius: 10%;
           cursor: pointer;
         }
 
@@ -179,6 +214,7 @@ const Home = () => {
           transition: transform 1s;
           transform-style: preserve-3d;
           backface-visibility: hidden;
+          border-radius: 10%;
         }
 
         .card {

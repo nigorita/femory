@@ -6,6 +6,7 @@ const pics = [
       'https://media.gettyimages.com/photos/sonja-kowalewski-mathematician-russia-picture-id537139227?s=612x612',
     isFlipped: false,
     cl: 'card',
+    wiki: 'https://en.wikipedia.org/wiki/Sofya_Kovalevskaya',
   },
   {
     id: 2,
@@ -14,6 +15,7 @@ const pics = [
       'https://media.gettyimages.com/photos/sonja-kowalewski-mathematician-russia-picture-id537139227?s=612x612',
     isFlipped: false,
     cl: 'card',
+    wiki: 'https://en.wikipedia.org/wiki/Sofya_Kovalevskaya',
   },
   {
     id: 3,
@@ -22,6 +24,7 @@ const pics = [
       'https://www.welt.de/img/wissenschaft/mobile131160790/3312501427-ci102l-w1024/Maryam-Mirzakhani.jpg',
     isFlipped: false,
     cl: 'card',
+    wiki: 'https://en.wikipedia.org/wiki/Maryam_Mirzakhani',
   },
   {
     id: 4,
@@ -30,6 +33,7 @@ const pics = [
       'https://gi.de/fileadmin/GI/Hauptseite/Aktuelles/Projekte/Persoenlichkeiten/Grace-Hopper_1.jpg',
     isFlipped: false,
     cl: 'card',
+    wiki: 'https://en.wikipedia.org/wiki/Grace_Hopper',
   },
   {
     id: 5,
@@ -38,6 +42,7 @@ const pics = [
       'https://www.sciencenews.org/wp-content/uploads/2018/06/062318_noether_portrait_730.jpg',
     isFlipped: false,
     cl: 'card',
+    wiki: 'https://en.wikipedia.org/wiki/Emmy_Noether',
   },
   {
     id: 6,
@@ -46,6 +51,7 @@ const pics = [
       'https://www.welt.de/img/wissenschaft/mobile131160790/3312501427-ci102l-w1024/Maryam-Mirzakhani.jpg',
     isFlipped: false,
     cl: 'card',
+    wiki: 'https://en.wikipedia.org/wiki/Maryam_Mirzakhani',
   },
   {
     id: 7,
@@ -54,37 +60,42 @@ const pics = [
       'https://gi.de/fileadmin/GI/Hauptseite/Aktuelles/Projekte/Persoenlichkeiten/Grace-Hopper_1.jpg',
     isFlipped: false,
     cl: 'card',
+    wiki: 'https://en.wikipedia.org/wiki/Grace_Hopper',
   },
   {
     id: 8,
-    name: 'srinivas',
+    name: 'Bhama',
     image: 'https://www.math.uic.edu/mugshots/srinivas',
     isFlipped: false,
     cl: 'card',
+    wiki: 'https://en.wikipedia.org/wiki/Bhama_Srinivasan',
   },
 
   {
     id: 9,
-    name: 'vasan',
+    name: 'Hema',
     image:
       'https://www.math.missouri.edu/sites/default/files/styles/faculty_full_image/public/people/srinivasan.jpg?itok=moIE42U8',
     isFlipped: false,
     cl: 'card',
+    wiki: 'https://en.wikipedia.org/wiki/Hema_Srinivasan',
   },
   {
     id: 10,
-    name: 'srinivas',
+    name: 'Bhama',
     image: 'https://www.math.uic.edu/mugshots/srinivas',
     isFlipped: false,
     cl: 'card',
+    wiki: 'https://en.wikipedia.org/wiki/Bhama_Srinivasan',
   },
   {
     id: 11,
-    name: 'vasan',
+    name: 'Hema',
     image:
       'https://www.math.missouri.edu/sites/default/files/styles/faculty_full_image/public/people/srinivasan.jpg?itok=moIE42U8',
     isFlipped: false,
     cl: 'card',
+    wiki: 'https://en.wikipedia.org/wiki/Hema_Srinivasan',
   },
   {
     id: 12,
@@ -93,6 +104,7 @@ const pics = [
       'https://www.sciencenews.org/wp-content/uploads/2018/06/062318_noether_portrait_730.jpg',
     isFlipped: false,
     cl: 'card',
+    wiki: 'https://en.wikipedia.org/wiki/Emmy_Noether',
   },
 ];
 
