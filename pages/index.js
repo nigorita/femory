@@ -14,26 +14,32 @@ function shuffle(arr) {
     copyarr[i] = copyarr[j];
     copyarr[j] = temp;
   }
-  console.log(copyarr);
+
   return copyarr;
 }
 
 const Home = () => {
-  // var a = [1, 2, 3, 4, 5, 6, 7, 8];
+  // var a = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11,12,13,14,15,16,17,18,19,20];
   // var b = shuffle(a);
   // console.log(b);
   // [2, 7, 8, 6, 5, 3, 1, 4]
 
   const [listo, setListo] = useState(pics);
-
   const [names, setNames] = useState([]);
   const [count, setCount] = useState(0);
   const [win, setWin] = useState(false);
 
   useEffect(() => {
     const s = shuffle(pics);
-    setListo(s);
-    console.log('listo is ', s);
+    let d = [];
+    for (let i = 0; i < 8; i++) {
+      d.push(s[i]);
+      d.push({ ...s[i], id: s[i].id + 0.5 });
+    }
+
+    const miow = shuffle(d);
+
+    setListo(miow);
   }, []);
 
   // const win = listo.filter(x => {
@@ -150,6 +156,7 @@ const Home = () => {
           border: solid;
           cursor: pointer;
           position: relative;
+          font-weight: bold;
         }
         .again {
           background-color: #42f587;
