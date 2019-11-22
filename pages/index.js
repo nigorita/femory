@@ -66,7 +66,7 @@ const Home = () => {
             alert('you won with ' + count + ' clicks');
             // window.location.reload();
           }
-        }, 500);
+        }, 1200);
       }
 
       setNames([]);
