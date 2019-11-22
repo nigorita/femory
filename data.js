@@ -106,6 +106,40 @@ const pics = [
     cl: 'card',
     wiki: 'https://en.wikipedia.org/wiki/Emmy_Noether',
   },
+  {
+    id: 13,
+    name: 'Bibi',
+    image:
+      'https://mandegar.tarikhema.org/images/2017/06/main-qimg-c21fe8085644df53ae5d44f2be523d5c-c.jpg',
+    isFlipped: false,
+    cl: 'card',
+    wiki: 'https://en.wikipedia.org/wiki/Bibi_Khanoom_Astarabadi',
+  },
+  {
+    id: 14,
+    name: 'Bibi',
+    image:
+      'https://mandegar.tarikhema.org/images/2017/06/main-qimg-c21fe8085644df53ae5d44f2be523d5c-c.jpg',
+    isFlipped: false,
+    cl: 'card',
+    wiki: 'https://en.wikipedia.org/wiki/Bibi_Khanoom_Astarabadi',
+  },
+  {
+    id: 15,
+    name: 'maryam zandi',
+    image: 'http://vizorio.com/wp-content/uploads/2017/01/مریم-زندی.jpg',
+    isFlipped: false,
+    cl: 'card',
+    wiki: 'http://vizorio.com/wp-content/uploads/2017/01/مریم-زندی.jpg',
+  },
+  {
+    id: 16,
+    name: 'maryam zandi',
+    image: 'http://vizorio.com/wp-content/uploads/2017/01/مریم-زندی.jpg',
+    isFlipped: false,
+    cl: 'card',
+    wiki: 'http://vizorio.com/wp-content/uploads/2017/01/مریم-زندی.jpg',
+  },
 ];
 
 export default pics;

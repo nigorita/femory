@@ -158,7 +158,7 @@ const Home = () => {
           position: absolute;
           pointer-events: all;
           width: 120px;
-          height: 180px;
+          height: 120px;
           object-fit: cover;
           background: rgba(255, 255, 255, 0.5);
         }
@@ -166,14 +166,14 @@ const Home = () => {
           margin: 0 auto;
 
           width: 132px;
-          height: 192px;
-          padding-left: 10px;
-          padding-top: 10px;
+          height: 132px;
+          padding-left: 5px;
+          padding-top: 5px;
         }
         img {
           position: absolute;
           width: 120px;
-          height: 180px;
+          height: 120px;
           object-fit: cover;
           border-radius: 10%;
         }
@@ -196,7 +196,7 @@ const Home = () => {
         .front {
           position: absolute;
           width: 120px;
-          height: 180px;
+          height: 120px;
           z-index: 1;
           transition: transform 1s;
           transform-style: preserve-3d;
@@ -207,7 +207,7 @@ const Home = () => {
         button {
           position: absolute;
           width: 120px;
-          height: 180px;
+          height: 120px;
           color: #5c852c;
           background: #5c852c;
           border-radius: 10%;
@@ -217,7 +217,7 @@ const Home = () => {
         .back {
           position: absolute;
           width: 120px;
-          height: 180px;
+          height: 120px;
           background: red;
           transform: rotateY(180deg);
           pointer-events: none;
@@ -229,7 +229,7 @@ const Home = () => {
 
         .card {
           width: 120px;
-          height: 180px;
+          height: 120px;
           position: relative;
           perspective: 600px;
            {
