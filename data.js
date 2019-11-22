@@ -15,8 +15,7 @@ const pics = [
       'https://www.farhangnameh.com/wp-content/uploads/2019/02/WhatsApp-Image-2019-01-27-at-2.49.24-PM-800x800.jpeg',
     isFlipped: false,
     cl: 'card',
-    wiki:
-      'https://en.wikipedia.org/wiki/Sofya_Kovalevskayahttps://en.wikipedia.org/wiki/Touran_Mirhadi',
+    wiki: 'https://en.wikipedia.org/wiki/Touran_Mirhadi',
   },
   {
     id: 3,

@@ -60,7 +60,7 @@ const Home = () => {
               setListo(list2);
             }
           });
-        }, 1000);
+        }, 800);
       } else {
         const hasWon =
           listo.filter(x => {
@@ -69,7 +69,11 @@ const Home = () => {
         setWin(hasWon);
         setTimeout(function() {
           if (hasWon) {
-            alert('you won with ' + count + ' clicks');
+            alert(
+              'you won with ' +
+                count +
+                ' clicks. Click on Wikipedia links to learn about this persons',
+            );
             // window.location.reload();
           }
         }, 1200);
@@ -130,9 +134,8 @@ const Home = () => {
                     href={fig.wiki}
                   >
                     <br />
-                    read about <br />
+                    <br />
                     {fig.name} <br />
-                    in WikiPedia
                   </a>
                 </div>
               </div>
