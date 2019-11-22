@@ -1,17 +1,17 @@
 import React from 'react';
 import Link from 'next/link';
 
-const links = [
-  { href: '#', label: 'ZEIT' },
-  { href: '#', label: 'GitHub' },
-].map(link => {
-  link.key = `nav-link-${link.href}-${link.label}`;
-  return link;
-});
+// const links = [
+//   { href: '#', label: 'ZEIT' },
+//   { href: '#', label: 'GitHub' },
+// ].map(link => {
+//   link.key = `nav-link-${link.href}-${link.label}`;
+//   return link;
+// });
 
 const Nav = () => (
   <nav>
-    <ul>
+    {/* <ul>
       <li>
         <Link href="/">
           <a>Home</a>
@@ -22,7 +22,8 @@ const Nav = () => (
           <a href={href}>{label}</a>
         </li>
       ))}
-    </ul>
+    </ul> */}
+    <br />
     <h3 color="white">Femory</h3>
     <h4>Boost your feminist memory</h4>
     <style jsx>{`
@@ -34,18 +35,9 @@ const Nav = () => (
       nav {
         text-align: center;
         background-color: #3f8a53;
-        height: 130px;
+        height: 110px;
       }
-      ul {
-        display: flex;
-        justify-content: space-between;
-      }
-      nav > ul {
-        padding: 4px 16px;
-      }
-      li {
-        display: flex;
-        padding: 6px 8px;
+   
       }
       a {
         color: white;
