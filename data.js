@@ -208,6 +208,60 @@ const pics = [
     cl: 'card',
     wiki: 'https://en.wikipedia.org/wiki/Jane_Goodall',
   },
+  {
+    id: 25,
+    name: 'Frida Kahlo',
+    image:
+      'https://66.media.tumblr.com/76f5a072afe5fb9977a1ec1d96c1f662/tumblr_ovlchh1sYf1w3v1xmo1_540.jpg',
+    isFlipped: false,
+    cl: 'card',
+    wiki: 'https://en.wikipedia.org/wiki/Frida_Kahlo',
+  },
+  {
+    id: 26,
+    name: 'Virginia Woolf',
+    image:
+      'https://www.theargus.co.uk/resources/images/4892533?type=responsive-gallery-fullscreen',
+    isFlipped: false,
+    cl: 'card',
+    wiki: 'https://en.wikipedia.org/wiki/Virginia_Woolf',
+  },
+  {
+    id: 27,
+    name: 'Joan Baez',
+    image:
+      'https://alchetron.com/cdn/joan-baez-cb95a0c6-92f2-469c-879d-045e880dc01-resize-750.jpg',
+    isFlipped: false,
+    cl: 'card',
+    wiki: 'https://en.wikipedia.org/wiki/Joan_Baez',
+  },
+  {
+    id: 28,
+    name: 'Soosan Taslimi',
+    image:
+      'https://d1i5cf397ceebi.cloudfront.net/uploads/employee/profile_image/389/normal_cb94d824-e932-41bf-86bd-e84dbc95d984.jpg',
+    isFlipped: false,
+    cl: 'card',
+    wiki: 'https://en.wikipedia.org/wiki/Susan_Taslimi',
+  },
+  {
+    id: 29,
+    name: 'Natalia Ginzburg',
+    image:
+      'https://media.newyorker.com/photos/5d31f60559b22d000965ee94/master/w_727,c_limit/190729_r34698.jpg',
+    isFlipped: false,
+    cl: 'card',
+    wiki: 'https://en.wikipedia.org/wiki/Natalia_Ginzburg',
+  },
+  {
+    id: 30,
+    name: 'Susan Sontag',
+    image:
+      'https://www.filosofie.nl/upload/sleutelfiguren/7-31%20Susan%20Sontag%20klein.jpg',
+    isFlipped: false,
+    cl: 'card',
+    wiki: ' https://en.wikipedia.org/wiki/Susan_Sontag',
+  },
 ];
 
 export default pics;
