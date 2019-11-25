@@ -318,7 +318,7 @@ const pics = [
     id: 37,
     name: 'Alfonsina Strada',
     image:
-      'https://as01.epimg.net/ciclismo/imagenes/2019/05/09/giro_italia/1557426878_509488_1557590125_noticia_normal.png',
+      'http://www.joanseguidor.com/wp-content/uploads/2018/04/Giro-de-Italia-Alfonsina-Strada.jpg',
     isFlipped: false,
     cl: 'card',
     wiki: 'https://en.wikipedia.org/wiki/Alfonsina_Strada',
