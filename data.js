@@ -262,6 +262,67 @@ const pics = [
     cl: 'card',
     wiki: ' https://en.wikipedia.org/wiki/Susan_Sontag',
   },
+  {
+    id: 31,
+    name: 'Amelia Earhart',
+    image:
+      'https://upload.wikimedia.org/wikipedia/commons/b/b2/Amelia_Earhart_standing_under_nose_of_her_Lockheed_Model_10-E_Electra%2C_small.jpg',
+    isFlipped: false,
+    cl: 'card',
+    wiki: 'https://en.wikipedia.org/wiki/Amelia_Earhart',
+  },
+  {
+    id: 32,
+    name: 'Valentina Tereshkova',
+    image:
+      'https://starchild.gsfc.nasa.gov/Images/StarChild/scientists/tereshkova_l2.jpg',
+    isFlipped: false,
+    cl: 'card',
+    wiki: 'https://en.wikipedia.org/wiki/Valentina_Tereshkova',
+  },
+  {
+    id: 33,
+    name: 'Harriet Beecher-Stowe',
+    image:
+      'https://www.naakojaa.com/sites/default/files/imagecache/author/0478-0611-1410-1149_harriet_beecher_stowe_o.jpg',
+    isFlipped: false,
+    cl: 'card',
+    wiki: 'https://en.wikipedia.org/wiki/Harriet_Beecher_Stowe',
+  },
+  {
+    id: 34,
+    name: 'George Eliot',
+    image: 'https://creativequotations.com/pix/399.jpg',
+    isFlipped: false,
+    cl: 'card',
+    wiki: 'https://en.wikipedia.org/wiki/George_Eliot',
+  },
+  {
+    id: 35,
+    name: 'Mary Wollstonecraft',
+    image: 'https://www.tate.org.uk/art/images/work/N/N01/N01167_9.jpg',
+    isFlipped: false,
+    cl: 'card',
+    wiki: 'https://en.wikipedia.org/wiki/Mary_Wollstonecraft',
+  },
+  {
+    id: 36,
+    name: 'Kathrine Switzer',
+    image:
+      'http://www.thepointaftershow.com/wp-content/uploads/2017/04/Kathrine-Switzer.jpg',
+    isFlipped: false,
+    cl: 'card',
+    wiki: 'https://en.wikipedia.org/wiki/Kathrine_Switzer',
+  },
+  {
+    id: 37,
+    name: 'Alfonsina Strada',
+    image:
+      'https://as01.epimg.net/ciclismo/imagenes/2019/05/09/giro_italia/1557426878_509488_1557590125_noticia_normal.png',
+    isFlipped: false,
+    cl: 'card',
+    wiki: 'https://en.wikipedia.org/wiki/Alfonsina_Strada',
+  },
 ];
 
 export default pics;
