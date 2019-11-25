@@ -88,6 +88,11 @@ const Home = () => {
       <Head>
         <title>Home</title>
         <link rel="icon" href="/favicon.ico" />
+        <link
+          href="http://www.fontonline.ir/css/IranNastaliq.css"
+          rel="stylesheet"
+          type="text/css"
+        />
       </Head>
 
       <Nav />
@@ -143,8 +148,48 @@ const Home = () => {
           );
         })}
       </ul>
+      <div className="Yush" lang="fa">
+        یاد بعضی نفرات
+        <br />
+        روشنم می‌دارد:
+        <br />
+        بی بی استرابادی
+        <br />
+        توران میرهادی.
+        <br />
+        <br />
+        قوّتم می‌بخشد
+        <br />
+        رَه می‌اندازد
+        <br />
+        و اجاقِ کهنِ سردِ سَرایَم
+        <br />
+        گرم می‌آید از گرمیِ عالی دَمِشان.
+        <br />
+        <br />
+        نام بعضی نفرات
+        <br />
+        رِزق روحم شده است.
+        <br />
+        وقت هر دلتنگی
+        <br />
+        سویِشان دارم دست
+        <br />
+        جُرأتم می‌بخشد
+        <br />
+        روشنم می‌دارد.
+        <br />
+        -نیما یوشیج
+      </div>
 
       <style jsx>{`
+        .Yush {
+          padding-top: 50px;
+          padding-right: 50px;
+          font-family: 'IranNastaliq', tahoma;
+          direction: rtl;
+          font-size: 20px;
+        }
         .azsar {
           position: absolute;
           padding: 10px;
