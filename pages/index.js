@@ -88,11 +88,6 @@ const Home = () => {
       <Head>
         <title>Home</title>
         <link rel="icon" href="/favicon.ico" />
-        <link
-          href="http://www.fontonline.ir/css/IranNastaliq.css"
-          rel="stylesheet"
-          type="text/css"
-        />
       </Head>
 
       <Nav />
