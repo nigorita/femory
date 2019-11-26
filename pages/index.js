@@ -72,7 +72,7 @@ const Home = () => {
             alert(
               'you won with ' +
                 count +
-                ' clicks. Click on Wikipedia links to learn about this people',
+                ' clicks. Click on Wikipedia links to learn about these people.',
             );
             // window.location.reload();
           }
