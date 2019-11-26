@@ -103,7 +103,7 @@ const Home = () => {
         Refresh the game
       </a>
 
-      <div className="Yush1">
+      {/* <div className="Yush1">
         نام بعضی نفرات
         <br />
         رِزق روحم شده است.
@@ -117,7 +117,7 @@ const Home = () => {
         روشنم می‌دارد.
         <br />
         -نیما یوشیج
-      </div>
+      </div> */}
 
       <ul>
         {listo.map((fig, index) => {
@@ -164,7 +164,7 @@ const Home = () => {
           );
         })}
       </ul>
-      <div className="Yush2" lang="fa">
+      {/* <div className="Yush2" lang="fa">
         یاد بعضی نفرات
         <br />
         روشنم می‌دارد:
@@ -181,10 +181,11 @@ const Home = () => {
         و اجاقِ کهنِ سردِ سَرایَم
         <br />
         گرم می‌آید از گرمیِ عالی دَمِشان.
-      </div>
+      </div> */}
 
       <style jsx>{`
-        .Yush2 {
+         {
+          /* .Yush2 {
           padding-top: 50px;
           padding-right: 80px;
           font-family: 'IranNastaliq', tahoma;
@@ -198,6 +199,7 @@ const Home = () => {
           font-family: 'IranNastaliq', tahoma;
           direction: rtl;
           font-size: 20px;
+        } */
         }
         .azsar {
           position: absolute;
