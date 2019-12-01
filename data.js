@@ -323,6 +323,42 @@ const pics = [
     cl: 'card',
     wiki: 'https://en.wikipedia.org/wiki/Alfonsina_Strada',
   },
+  {
+    id: 38,
+    name: 'Sara Khadem',
+    image:
+      'https://i.pinimg.com/originals/be/c1/4d/bec14dd1d84498effffe4ef2c0d80988.jpg',
+    isFlipped: false,
+    cl: 'card',
+    wiki: 'https://en.wikipedia.org/wiki/Sarasadat_Khademalsharieh',
+  },
+  {
+    id: 39,
+    name: 'Forough Farrokhzad',
+    image:
+      'https://i.pinimg.com/originals/20/aa/de/20aade70717a64867808506937d11d7f.jpg',
+    isFlipped: false,
+    cl: 'card',
+    wiki: 'https://en.wikipedia.org/wiki/Forough_Farrokhzad',
+  },
+  {
+    id: 40,
+    name: 'Zaha Hadid',
+    image:
+      'https://upload.wikimedia.org/wikipedia/commons/7/73/Zaha_Hadid_in_Heydar_Aliyev_Cultural_center_in_Baku_nov_2013.jpg',
+    isFlipped: false,
+    cl: 'card',
+    wiki: 'https://en.wikipedia.org/wiki/Zaha_Hadid',
+  },
+  {
+    id: 41,
+    name: 'Zahra Nemati',
+    image:
+      'http://realiran.org/wp-content/uploads/2016/09/Untitled-620x400.jpg',
+    isFlipped: false,
+    cl: 'card',
+    wiki: 'https://en.wikipedia.org/wiki/Zahra_Nemati',
+  },
 ];
 
 export default pics;
