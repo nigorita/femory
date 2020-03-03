@@ -366,7 +366,7 @@ const pics = [
       'https://upload.wikimedia.org/wikipedia/commons/5/59/Fereshteh_Taerpour.jpg',
     isFlipped: false,
     cl: 'card',
-    wiki: 'https://fa.wikipedia.org/wiki/%D9%81%D8%B1%D8%B4%D8%AA%D9%87_%D8%B7%D8%A7%D8%A6%D8%B1%D9%BE%D9%88%D8%B1',
+    wiki: 'https://en.wikipedia.org/wiki/Fereshteh_Taerpour',
   },
   {id:43,
    name: 'Kimia Alizadeh',
@@ -375,6 +375,14 @@ const pics = [
    cl: 'card',
    wiki: 'https://en.wikipedia.org/wiki/Kimia_Alizadeh',
   },
+  {
+  id:44,
+  name: 'Minoo Mohraz',
+    image:'https://i0.wp.com/iranian.com/wp-content/uploads/2020/02/Screen-Shot-2020-02-28-at-10.33.37-AM.png?fit=923%2C588&ssl=1',
+    isFlipped: false,
+    cl: 'card',
+    wiki:'https://en.wikipedia.org/wiki/Minoo_Mohraz'
+,}
 ];
 
 export default pics;
