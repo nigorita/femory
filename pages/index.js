@@ -8,8 +8,8 @@ function shuffle(arr) {
   let j;
   let temp;
   const copyarr = [...arr];
-  for (let i = copyarr.length - 1; i > 0; i--) {
-    j = Math.floor(Math.random() * (i + 1));
+  for (let i = copyarr.length - 1; i >= 0; i--) {
+    j = Math.floor(Math.random() * (arr.length));
     temp = copyarr[i];
     copyarr[i] = copyarr[j];
     copyarr[j] = temp;
@@ -19,10 +19,7 @@ function shuffle(arr) {
 }
 
 const Home = () => {
-  // var a = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11,12,13,14,15,16,17,18,19,20];
-  // var b = shuffle(a);
-  // console.log(b);
-  // [2, 7, 8, 6, 5, 3, 1, 4]
+ 
 
   const [listo, setListo] = useState(pics);
   const [names, setNames] = useState([]);
@@ -42,9 +39,7 @@ const Home = () => {
     setListo(miow);
   }, []);
 
-  // const win = listo.filter(x => {
-  //   return x.isFlipped == false;
-  // });
+ 
 
   useEffect(() => {
     if (names.length === 2) {
@@ -72,9 +67,9 @@ const Home = () => {
             alert(
               'you won with ' +
                 count +
-                ' clicks. Click on Wikipedia links to learn about these people.',
+                ' clicks. Now click on Wikipedia links to learn about these amazing people.',
             );
-            // window.location.reload();
+            
           }
         }, 1200);
       }
@@ -98,21 +93,7 @@ const Home = () => {
         Refresh the game
       </a>
 
-      {/* <div className="Yush1">
-        نام بعضی نفرات
-        <br />
-        رِزق روحم شده است.
-        <br />
-        وقت هر دلتنگی
-        <br />
-        سویِشان دارم دست
-        <br />
-        جُرأتم می‌بخشد
-        <br />
-        روشنم می‌دارد.
-        <br />
-        -نیما یوشیج
-      </div> */}
+  
 
       <ul>
         {listo.map((fig, index) => {
@@ -130,7 +111,7 @@ const Home = () => {
                           const c = fig.wiki;
                           setNames([...names, { name: a, id: b }]);
 
-                          //setNames([...names, { name: fig.name, id: index }]);
+                          
                           console.log(names);
                           const newList = [...listo];
                           newList[index].isFlipped = true;
@@ -159,24 +140,7 @@ const Home = () => {
           );
         })}
       </ul>
-      {/* <div className="Yush2" lang="fa">
-        یاد بعضی نفرات
-        <br />
-        روشنم می‌دارد:
-        <br />
-        بی بی استرابادی
-        <br />
-        توران میرهادی.
-        <br />
-        <br />
-        قوّتم می‌بخشد
-        <br />
-        رَه می‌اندازد
-        <br />
-        و اجاقِ کهنِ سردِ سَرایَم
-        <br />
-        گرم می‌آید از گرمیِ عالی دَمِشان.
-      </div> */}
+     
 
       <style jsx>{`
          {
@@ -314,8 +278,4 @@ const Home = () => {
 
 export default Home;
 
-// Home.getInitialProps = () => {
-//   const shuffled = shuffle(pics);
-//   console.log('getInitialProps', shuffled);
-//   return { shuffled };
-// };
+
