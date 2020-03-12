@@ -134,7 +134,7 @@ const pics = [
     id: 16,
     name: 'Azar Andami',
     image:
-      'https://en.wikipedia.org/wiki/Azar_Andami#/media/File:Azar_Andami.jpg',
+      'https://upload.wikimedia.org/wikipedia/commons/3/39/Azar_Andami.jpg',
     isFlipped: false,
     cl: 'card',
     wiki: 'https://en.wikipedia.org/wiki/Azar_Andami',
