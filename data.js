@@ -381,8 +381,16 @@ const pics = [
     image:'https://i0.wp.com/iranian.com/wp-content/uploads/2020/02/Screen-Shot-2020-02-28-at-10.33.37-AM.png?fit=923%2C588&ssl=1',
     isFlipped: false,
     cl: 'card',
-    wiki:'https://en.wikipedia.org/wiki/Minoo_Mohraz'
-,}
+    wiki:'https://en.wikipedia.org/wiki/Minoo_Mohraz',
+},
+  {
+  id:45,
+  name: 'Jaleh Amouzgar',
+    image:'https://www.cgie.org.ir/uploads/news/2020/2/2(31).jpg',
+    isFlipped: false,
+    cl: 'card',
+    wiki:'https://en.wikipedia.org/wiki/Jaleh_Amouzgar',
+}
 ];
 
 export default pics;
