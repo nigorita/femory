@@ -390,7 +390,15 @@ const pics = [
     isFlipped: false,
     cl: 'card',
     wiki:'https://en.wikipedia.org/wiki/Jaleh_Amouzgar',
-}
+},
+  {
+    id: 46,
+    name: 'Wilma Rudolph',
+    image: 'https://de.wikipedia.org/wiki/Wilma_Rudolph',
+    isFlipped: false,
+    cl : 'card',
+    wiki: 'https://de.wikipedia.org/wiki/Wilma_Rudolph'
+  }
 ];
 
 export default pics;
