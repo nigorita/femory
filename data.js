@@ -394,7 +394,7 @@ const pics = [
   {
     id: 46,
     name: 'Wilma Rudolph',
-    image: 'https://de.wikipedia.org/wiki/Wilma_Rudolph',
+    image: 'https://images.fineartamerica.com/images/artworkimages/mediumlarge/1/wilma-rudolph-1940-1994-was-the-first-everett.jpg',
     isFlipped: false,
     cl : 'card',
     wiki: 'https://de.wikipedia.org/wiki/Wilma_Rudolph'
