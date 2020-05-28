@@ -406,6 +406,14 @@ const pics = [
     isFlipped: false,
     cl : 'card',
     wiki: 'https://en.wikipedia.org/wiki/Behjat_Sadr'
+  },
+   {
+    id: 48,
+    name: 'Leila Araghian',
+    image: 'https://i.guim.co.uk/img/static/sys-images/Guardian/Pix/pictures/2015/4/20/1429533225225/6ce19303-1e93-4a9e-bd28-72445c5c156e-660x720.jpeg?width=300&quality=45&auto=format&fit=max&dpr=2&s=de55de1228a47430a6f5d442a3561e67',
+    isFlipped: false,
+    cl : 'card',
+    wiki: 'https://en.wikipedia.org/wiki/Leila_Araghian'
   }
 ];
 
