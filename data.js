@@ -398,6 +398,14 @@ const pics = [
     isFlipped: false,
     cl : 'card',
     wiki: 'https://de.wikipedia.org/wiki/Wilma_Rudolph'
+  },
+   {
+    id: 47,
+    name: 'Behjat Sadr',
+    image: 'https://upload.wikimedia.org/wikipedia/fa/0/00/Behjat.jpg',
+    isFlipped: false,
+    cl : 'card',
+    wiki: 'https://en.wikipedia.org/wiki/Behjat_Sadr'
   }
 ];
 
