@@ -257,7 +257,7 @@ const pics = [
     id: 30,
     name: 'Susan Sontag',
     image:
-      'https://en.wikipedia.org/wiki/Susan_Sontag#/media/File:Susan_Sontag_1979_%C2%A9Lynn_Gilbert_(headshot).jpg',
+      'https://upload.wikimedia.org/wikipedia/commons/f/f2/Susan_Sontag_1979_%C2%A9Lynn_Gilbert_%28headshot%29.jpg',
     isFlipped: false,
     cl: 'card',
     wiki: ' https://en.wikipedia.org/wiki/Susan_Sontag',
