@@ -125,7 +125,7 @@ const pics = [
   {
     id: 15,
     name: 'Maryam Zandi',
-    image: 'http://vizorio.com/wp-content/uploads/2017/01/مریم-زندی.jpg',
+    image: 'https://farhang.org/images/press/2018-0517-Maryam-Zandi.JPG',
     isFlipped: false,
     cl: 'card',
     wiki: 'https://en.wikipedia.org/wiki/Maryam_Zandi',
