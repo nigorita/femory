@@ -194,7 +194,7 @@ const pics = [
     id: 23,
     name: 'Katherine Johnson',
     image:
-      'https://upload.wikimedia.org/wikipedia/commons/6/62/Katherine_Johnson_at_NASA%2C_in_1966.jpg',
+      'https://d2v9ipibika81v.cloudfront.net/uploads/sites/21/NASA_Johnson_lrc-2016-h1_p_katherine_g._johnson-050507-1024x768.jpg',
     isFlipped: false,
     cl: 'card',
     wiki: 'https://en.wikipedia.org/wiki/Katherine_Johnson',
@@ -257,7 +257,7 @@ const pics = [
     id: 30,
     name: 'Susan Sontag',
     image:
-      'https://www.filosofie.nl/upload/sleutelfiguren/7-31%20Susan%20Sontag%20klein.jpg',
+      'https://en.wikipedia.org/wiki/Susan_Sontag#/media/File:Susan_Sontag_1979_%C2%A9Lynn_Gilbert_(headshot).jpg',
     isFlipped: false,
     cl: 'card',
     wiki: ' https://en.wikipedia.org/wiki/Susan_Sontag',
