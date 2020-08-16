@@ -414,7 +414,29 @@ const pics = [
     isFlipped: false,
     cl : 'card',
     wiki: 'https://en.wikipedia.org/wiki/Leila_Araghian'
-  }
+  },
+  {id:49,
+   name: 'Hayedeh Safiyari',
+   image:'https://i1.wp.com/www.cinedergi.com/wp-content/uploads/2019/05/Hayedeh-Safiyari.png?resize=569%2C858',
+   wiki:'https://en.wikipedia.org/wiki/Hayedeh_Safiyari',
+   isFlipped: false,
+   cl: 'card'
+  },
+  {id:50,
+   name: 'Nina Simone',
+   image:'https://static.universal-music.de/asset_new/419487/881/view/c/Nina-Simone.jpg',
+   wiki:'https://de.wikipedia.org/wiki/Nina_Simone',
+   isFlipped: false,
+   cl: 'card'
+  },
+   {id:51,
+   name: 'Marjane Satrapi',
+   image:'https://www.sueddeutsche.de/image/sz.1.2462414/1280x720?v=1520210258&format=webp',
+   wiki:'https://en.wikipedia.org/wiki/Marjane_Satrapi',
+   isFlipped: false,
+   cl: 'card'
+  },
+  
 ];
 
 export default pics;
