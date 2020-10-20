@@ -354,7 +354,7 @@ const pics = [
     id: 41,
     name: 'Zahra Nemati',
     image:
-      'http://realiran.org/wp-content/uploads/2016/09/Untitled-620x400.jpg',
+      'https://media.mehrnews.com/d/2016/07/27/3/2153255.jpg?ts=1486462047399',
     isFlipped: false,
     cl: 'card',
     wiki: 'https://en.wikipedia.org/wiki/Zahra_Nemati',
@@ -386,11 +386,11 @@ const pics = [
   {
   id:45,
   name: 'Jaleh Amouzgar',
-    image:'https://www.cgie.org.ir/uploads/news/2020/2/2(31).jpg',
+    image:'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQr29QZpUEFuXchruynX1kmqdIBllNfTeNSTg&usqp=CAU',
     isFlipped: false,
     cl: 'card',
     wiki:'https://en.wikipedia.org/wiki/Jaleh_Amouzgar',
-},
+https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQr29QZpUEFuXchruynX1kmqdIBllNfTeNSTg&usqp=CAU
   {
     id: 46,
     name: 'Wilma Rudolph',
