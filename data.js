@@ -100,7 +100,7 @@ const pics = [
     id: 12,
     name: 'Qamar Vaziri',
     image:
-      'http://zahramohammadiofficial.com/wp-content/uploads/2019/08/qamar.jpg',
+      'https://en.wikipedia.org/wiki/Qamar-ol-Moluk_Vaziri#/media/File:Qamar-ol-Moluk_Vaziri.jpg',
     isFlipped: false,
     cl: 'card',
     wiki: 'https://en.wikipedia.org/wiki/Qamar-ol-Moluk_Vaziri',
