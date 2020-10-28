@@ -309,7 +309,7 @@ const pics = [
     id: 36,
     name: 'Kathrine Switzer',
     image:
-      'http://www.thepointaftershow.com/wp-content/uploads/2017/04/Kathrine-Switzer.jpg',
+      'https://en.wikipedia.org/wiki/Kathrine_Switzer#/media/File:Kathrine_Switzer_at_the_2011_Berlin_Marathon_Expo.jpg',
     isFlipped: false,
     cl: 'card',
     wiki: 'https://en.wikipedia.org/wiki/Kathrine_Switzer',
@@ -354,7 +354,7 @@ const pics = [
     id: 41,
     name: 'Zahra Nemati',
     image:
-      'https://media.mehrnews.com/d/2016/07/27/3/2153255.jpg?ts=1486462047399',
+      'https://en.wikipedia.org/wiki/Zahra_Nemati#/media/File:Zahra_Nemati_in_43rd_N.O.I.C_General_Assembly.jpg',
     isFlipped: false,
     cl: 'card',
     wiki: 'https://en.wikipedia.org/wiki/Zahra_Nemati',
