@@ -86,13 +86,15 @@ const Home = () => {
       </Head>
 
       <Nav />
+     <h4>Created By: Negar Rahbar</h4>
 
       <a className="azsar" href="javascript:location.reload(true)">
         Play Again
         <br />
         Refresh the game
+   
       </a>
-    <h4>Created By: Negar Rahbar</h4>
+   
 
   
 
