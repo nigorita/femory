@@ -26,7 +26,7 @@ const Nav = () => (
     <br />
     <h2 color="white">Femory</h2>
     <h3>Boost your feminist memory</h3>
-  <h4>Created By: Negar Rahbar</h4> || <h4>negar.rahbar@gmail.com</h4>
+  <h4>Created By: Negar Rahbar negar.rahbar@gmail.com</h4>
     <style jsx>{`
       :global(body) {
         margin: 0;
