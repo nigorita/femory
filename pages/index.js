@@ -92,6 +92,7 @@ const Home = () => {
         <br />
         Refresh the game
       </a>
+    <h4>Created By: Negar Rahbar</h4>
 
   
 
