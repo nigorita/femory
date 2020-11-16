@@ -24,9 +24,9 @@ const Nav = () => (
       ))}
     </ul> */}
     <br />
-    <h2 color="white">Femory</h2>
-    <h3>Boost your feminist memory</h3>
-  <h4>Created By: Negar Rahbar negar.rahbar@gmail.com</h4>
+    <h3 color="white">Femory</h3>
+    <h4>Boost your feminist memory</h4>
+  <h4>Created By Negar Rahbar</h4>
     <style jsx>{`
       :global(body) {
         margin: 0;
@@ -45,10 +45,7 @@ const Nav = () => (
         text-decoration: none;
         font-size: 13px;
       }
-h2 {
-        color: white;
-        font-family: tahoma;
-      }
+
       h3 {
         color: white;
         font-family: tahoma;
