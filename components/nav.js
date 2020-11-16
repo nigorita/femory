@@ -45,6 +45,10 @@ const Nav = () => (
         text-decoration: none;
         font-size: 13px;
       }
+h2 {
+        color: white;
+        font-family: tahoma;
+      }
       h3 {
         color: white;
         font-family: tahoma;
