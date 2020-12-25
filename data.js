@@ -436,6 +436,13 @@ https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQr29QZpUEFuXchruynX1kmqd
    isFlipped: false,
    cl: 'card'
   },
+   {id:52,
+   name: 'Nasrin Moazami',
+   image:'https://irost.org/biotech/en/sites/default/files/d_ct_staff/Prof%20Nasrin%20Moazzami1.jpg',
+   wiki:'https://en.wikipedia.org/wiki/Nasrin_Moazami',
+   isFlipped: false,
+   cl: 'card'
+  },
   
 ];
 
