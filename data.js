@@ -377,11 +377,11 @@ const pics = [
   },
   {
   id:44,
-  name: 'Minoo Mohraz',
-    image:'https://i0.wp.com/iranian.com/wp-content/uploads/2020/02/Screen-Shot-2020-02-28-at-10.33.37-AM.png?fit=923%2C588&ssl=1',
+  name: 'Emel Mathlouthi',
+    image:'https://i.pinimg.com/236x/7e/fb/c2/7efbc2f34c62cdba5fee2a4027f942ad--rapper-female-singers.jpg',
     isFlipped: false,
     cl: 'card',
-    wiki:'https://en.wikipedia.org/wiki/Minoo_Mohraz',
+    wiki:'https://en.wikipedia.org/wiki/Emel_Mathlouthi',
 },
   {
   id:45,
