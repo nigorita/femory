@@ -26,6 +26,7 @@ const Nav = () => (
     <br />
     <h3 color="white">Femory</h3>
     <h4>Boost your feminist memory</h4>
+  <h4>Jin Jiyan Azadi</h4>
   <h4>Created By Negar Rahbar</h4>
     <style jsx>{`
       :global(body) {
